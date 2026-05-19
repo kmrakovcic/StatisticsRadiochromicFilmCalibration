@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository."
+title: >-
+  Revisiting statistical methods for radiochromic film dosimetry —
+  companion notebook
+type: software
+authors:
+  - family-names: "Mrakovčić"
+    given-names: "Karlo"
+    orcid: "https://orcid.org/0009-0009-8154-3827"
+    affiliation: "University of Rijeka, Faculty of Physics"
+  - family-names: "Mekterović"
+    given-names: "Darko"
+    orcid: "https://orcid.org/0000-0001-6220-5958"
+    affiliation: "University of Rijeka, Faculty of Physics"
+license: GPL-3.0-only
+repository-code: "https://github.com/kmrakovcic/StatisticsRadiochromicFilmCalibration"
+keywords:
+  - radiochromic film dosimetry
+  - sensitometric calibration
+  - least squares
+  - objective function
+  - uncertainty propagation
+  - Monte Carlo
+  - reproducibility

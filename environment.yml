@@ -1,0 +1,23 @@
+# Pinned conda environment for the companion notebook
+# "Revisiting statistical methods for radiochromic film dosimetry".
+#
+#   conda env create -f environment.yml
+#   conda activate radiochromic-film
+#   python -m ipykernel install --user --name radiochromic-film \
+#       --display-name "Python (radiochromic-film)"
+#
+# Then open the notebook and Kernel -> Restart & Run All.
+name: radiochromic-film
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.15
+  - numpy=2.4.4
+  - scipy=1.17.1
+  - matplotlib=3.10.9
+  - pandas=3.0.3
+  - notebook=7.5.6
+  - nbconvert=7.17.1
+  - nbformat=5.10.4
+  - ipykernel=7.2.0
+  - zip          # required by the final cell: ! zip -r Figures.zip Figures
